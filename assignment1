@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Evan's Quick Bio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h1> <bold>The Interlude</bold> </h1>
+    <p> <sub>As someone who's coming up on 5 years in IT</sub>, I'm starting to grow timid of becoming replaceable with the rise of automation 
+    and I wanted to stay competetitive in the face of the future. <small> I come from not having much, and feel very lucky to just be in the technology space.</small> 
+    I want to gain all the skills possible to land a high paying developer job, and <del>continue growing in the technology space</del>. </p>
+  </body>
+ </html>
