@@ -1,0 +1,268 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    
+}
+html{
+    font-size: 75%; 
+}
+:root{
+    --primary: rgb(51, 48, 45);
+}
+body{
+    
+    font-family: 'Lato', sans-serif;
+
+    line-height: 1;
+    background-color: rgb(248, 248, 236);
+}
+/* utilities*/
+.center{
+text-align: center;
+}
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin: 2rem;
+}
+/*
+@media(min-width: 768px;){
+    body{
+        background-color: aqua;
+    }
+}
+*/
+img{
+    max-width: 100%;
+}
+@media(min-width: 768px){
+    .site-header{
+    display:flex;
+        background-color:gold;
+        color: rgba(7, 15, 128, 0.308);
+        height: 30vh;
+        text-align: center;
+        justify-content: center;
+        
+    }
+        .site-header h1{
+            color: rgb(0, 0, 0);
+            font: size 8rem;
+            width: 60rem;
+        }
+        
+            .site-header h2{
+                color: rgb(0, 0, 0);
+            font-size: 4rem;
+            text-align: center;
+            text-decoration: rgb(223, 223, 30);
+            word-spacing: 10rem;
+            letter-spacing: .2rem;
+            text-shadow: 2px 1px black;
+            font-weight: lighter;
+            background-color: gold;
+            }
+        }
+h3{
+    text-align: center;
+}
+.site-header{
+    display:flex;
+        background-color:gold;
+        color: rgba(7, 15, 128, 0.308);
+        height: fit-content;
+        text-align: center;
+}
+.site-header h1{
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    width: 60rem;
+    text-align: center;
+    text-transform:inherit;
+    text-shadow: 2px 1px black;
+    word-spacing: .5rem;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site-header h2{
+    color: rgb(0, 0, 0);
+font-size: 4rem;
+text-align: center;
+text-decoration: rgb(223, 223, 30);
+word-spacing: 10rem;
+letter-spacing: .2rem;
+text-shadow: 2px 1px black;
+font-weight: bold;
+}
+.site-header h3{
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+    text-shadow: 2px 1px rgb(7, 7, 7);
+    text-align: center;
+}
+ .icons-container{
+     color: black;
+     font-size: 3rem;
+     margin-right: 2rem;
+ }
+
+ .icons-container i{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font: weight 60rem;
+    color: rgb(112, 92, 62);
+    margin-right: 1rem;
+}
+.icons-container i:hover{
+    color: black;
+}
+.menu{
+    display: flex;
+    text-align: center;
+}
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    font: weight 60rem;
+    color: rgb(0, 0, 0);
+    margin-right: 1rem;
+}
+.menu a:hover{
+    color: black;
+}
+/*main*/
+.img-container{
+    width: 10rem;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2rem;
+
+}
+.img-container img{
+    border-radius: 50%;
+    border: .5rem solid gold;
+    padding: 0rem;
+}
+
+/* foot*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.site-footer .icons-container a i{
+    color: blanchedalmond;
+    font-size: 2.5rem;
+padding-bottom: 2rem;
+}
+
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+/* Course.html */
+.course-container{
+    display: grid;
+    
+}
+.course-wrapper{
+    display:flex;
+    flex-direction:column;
+    height: 10vh;
+    justify-content: space-between;
+}
+.course-header{
+    display: inline;
+    align-items: center;
+    margin:0;
+}
+header.second-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    height: 25vh;
+    padding: 1rem;
+}
+
+header.second-header h1{
+     font-size: 4rem;
+     transform: rotate(-10deg);
+}
+@media(min-width:768px){
+    header.second-header{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5vh;
+    }
+}
+/*course html end*/
+/*education start */
+.aside-education ul li:hover{
+    border-right: 8px solid #f06e03;
+    cursor:pointer;
+    font-weight: 700;
+}
+.educational-container{
+    flex-direction: row;
+}
+.div-education{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.div-education div{
+    width: 50rem;
+    background-color: coral;
+}
+/*.div-education div:nth-child(2){
+    margin-left: 40rem;
+}
+.div-education div:nth-child(3){
+    margin-left: 100rem;
+}
+/* contact */
+.input-form{
+    display: flex;
+    padding: 1rem;
+}
+.btn-form{
+    display:flex;
+    justify-content: flex-end;
+}
+form{
+    border:1px solid rgba(0,0,0,0.178);
+    border-radius: 5px;
+    padding:1rem;
+}
+label,input[type=email],input[type=text]{
+    font-size: 1.6rem;
+}
+input[type=text],input[type=email],textarea{
+    border:none;
+    background-color:rgb(233, 229, 222);
+    border-radius: 5px;
+}
+input[type=text],input[type=email],textarea{
+    flex-basis:100%;
+}
+label{
+    flex-basis: 15rem;
+}
+input[type=submit]{
+    width: 20rem;
+    background-color: var(--primary);
+    border:none;
+    padding:1rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
