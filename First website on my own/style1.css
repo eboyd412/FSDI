@@ -1,0 +1,87 @@
+
+/* Educate page*/
+#Educate .container {
+
+    min-height: 50vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: top;
+}
+#Educate .container a{
+
+    min-height: 10vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Educate {
+    background-image: url(./IMG_0230.JPG);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+
+}
+#Educate :after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 126, 126);
+    opacity: .7;
+    z-index: -1;
+}
+#Educate h1{
+    display: block;
+    width: fit-content;
+    font-size: 1;
+    position: Top ;
+    color:transparent whitesmoke;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1.5s;
+
+}
+#Educate header{
+    position: Top;
+}
+#Educate h1 span{
+    position:top;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 2;
+    background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+#Educate .cta{
+    display: inline-block;
+    padding: 10px 15px;
+    color:cadetblue;
+    background-color: transparent;
+    border: 2px solid rgb(64, 78, 104);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 3px;
+    transition: .3s ease; 
+    transition-property: background-color, color;
+    text-align: center;
+}
+
+#Educate .cta:hover{
+    color: blanchedalmond;
+    background-color: crimson;
+
+}
+#Educate footer{
+    text-align: center;
+    text-size-adjust: 10px;
+    color: azure;
+}
+/* end of educate */
+
